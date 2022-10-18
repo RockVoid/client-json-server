@@ -1,0 +1,44 @@
+const registerFields=[
+    {
+        labelText:"Nome",
+        labelFor:"username",
+        id:"username",
+        name:"username",
+        type:"text",
+        autoComplete:"username",
+        isRequired:true,
+        placeholder:"Nome completo"   
+    },
+    {
+        labelText:"Email",
+        labelFor:"email-address",
+        id:"email-address",
+        name:"email",
+        type:"email",
+        autoComplete:"email",
+        isRequired:true,
+        placeholder:"Endereço de email"   
+    },
+    {
+        labelText:"Senha",
+        labelFor:"password",
+        id:"password",
+        name:"password",
+        type:"password",
+        autoComplete:"current-password",
+        isRequired:true,
+        placeholder:"Senha"   
+    },
+    {
+        labelText:"Confirme sua senha",
+        labelFor:"confirmPassword",
+        id:"confirmPassword",
+        name:"confirmPassword",
+        type:"password",
+        autoComplete:"confirmPassword",
+        isRequired:true,
+        placeholder:"Confirma senha"   
+    }
+]
+
+export {registerFields}
